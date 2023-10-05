@@ -2,10 +2,21 @@
 
 ## 介绍
 
- my-rpc-framework 是一款基于 Netty+Hessian+Zookeeper 实现的 RPC 框架。代码注释详细，结构清晰，非常适合阅读和学习。
+ my-rpc-framework 是一款基于 Netty+Hessian+Zookeeper 实现的 RPC 框架。该项目为个人学习项目，自己做了非常详细的代码注释，供学习参考。
 
+### **项目模块**
 
-### 项目主要完成的模块
+**example-client**：服务消费方示例
+
+**example-server**：服务提供方示例
+
+**example-service-api**：服务提供接口
+
+**rpc-common**：rpc 框架的一个枚举类、工具类
+
+**rpc-framework**：rpc 框架的核心实现
+
+### 项目主要完成的功能
 
 - **服务注册**：使用 Zookeeper 管理相关服务地址信息
 - **网络传输**：使用 Netty 作为 RPC 框架的网络通信工具
