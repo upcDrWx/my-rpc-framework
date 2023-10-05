@@ -1,0 +1,3 @@
+kyro=github.wx.serialize.kyro.KryoSerializer
+protostuff=github.wx.serialize.protostuff.ProtostuffSerializer
+hessian=github.wx.serialize.hessian.HessianSerializer

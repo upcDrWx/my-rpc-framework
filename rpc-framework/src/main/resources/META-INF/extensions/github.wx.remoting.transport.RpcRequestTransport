@@ -1,0 +1,2 @@
+netty=github.wx.remoting.transport.netty.client.NettyRpcClient
+# socket=github.wx.remoting.transport.socket.SocketRpcClient
