@@ -122,8 +122,7 @@ public class RpcMessageDecoder extends LengthFieldBasedFrameDecoder {
             // 反序列化
             String codecName = SerializationTypeEnum.getName(rpcMessage.getCodec());
             log.info("解码名称: [{}] ", codecName);
-//            Serializer serializer = ExtensionLoader.getExtensionLoader(Serializer.class).getExtension(codecName);
-            Serializer serializer = null;
+            Serializer serializer = ExtensionLoader.getExtensionLoader(Serializer.class).getExtension(codecName);
             if (messageType == RpcConstants.REQUEST_TYPE) {
                 RpcRequest tmpValue = serializer.deserialize(bs, RpcRequest.class);
                 rpcMessage.setData(tmpValue);
