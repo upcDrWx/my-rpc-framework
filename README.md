@@ -75,6 +75,6 @@ example-client 模块中的 NettyClientMain 类
 
 
 
-## 参考
+## 说明
 
-项目参考javaGuide哥的 [guide-rpc-framework](https://github.com/Snailclimb/guide-rpc-framework#guide-rpc-framework)，仅供个人学习使用。
+项目仅供个人学习使用。
